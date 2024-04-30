@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./day8.css">
+</head>
+<body>
+    <form style="background-color:rgb(100, 233, 100)">
+        <fieldset>
+        <h4>Step 1: Your details</h4>
+        
+        <label for="name">Name</label>
+        <input type="text" placeholder="First and last name" id="name">
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" placeholder="example@domain.com" id="mail">
+        <br>
+        <label for="phone">phone</label>
+        <input type="text" placeholder="Eg. +447500000000000" id="phone">
+        <br>
+        <h4> Step 2: Delivery address</h4>
+        <label for="address">address</label>
+        <textarea  rows="5" cols="22"></textarea>
+        <br>
+        <label for="post">Post code</label>
+        <input type="text" id="post">
+        <br>
+        <label for="country">Country</label>
+        <input type="text" id="country">
+        <br>
+        <h4>Step 3: card details</h4>
+        <p> card type</p>
+        <input type="radio" >
+        <label><img src="https://th.bing.com/th/id/OIP.xVREsbEnxpFwYsgl4hNO7QHaDA?rs=1&pid=ImgDetMain" width="30">VISA</label>
+        <input type="radio">
+        <label><img src="https://www.brianmalinchak.com/wp-content/uploads/2018/02/amex_logo.png" width="30" >AmEx</label>
+        <input type="radio">
+        <label><img src="https://logolook.net/wp-content/uploads/2021/07/Mastercard-Logo-2016.png" width="30">Mastercard</label>
+        <br>
+        <label>Card number</label>
+        <input type="text">
+        <br>
+        <label>Security code</label>
+        <input type="text">
+       <br>
+       <label>Name on card</label>
+       <input type="text" placeholder="Exact name as on the card">
+       <br>
+      <center> <button style="background-color: green;"><strong>Buy it</strong></button></center>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:wheat;
+            background-color: black;
+            text-align: center;
+            display:block;
+        }
+        label{
+            color:black;
+            ;
+        }
+        #user,#pass{
+            margin-left: 200px;
+        }
+        #city{
+            margin-left: 138px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h1>Novell services login</h1>
+    <label for="user">Username:</label>
+    <input type="text" id="user">
+    <br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass">
+    <br>
+    <label for="city">city of employment:</label>
+    <input type="text" id="city" >
+    <br>
+    <label for="web">web server:</label>
+    <select>
+        <option>--choose a server</option>
+    </select>
+    <br>
+    <label> Please specify your role:</label>
+    <table>
+        <tr>
+            <td><input type="radio" name="radio"></td>
+            <td><label>admin</label></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="radio"></td>
+            <td><label>Engineer</label></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="radio"></td>
+            <td><label>Manager</label></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="radio"></td>
+            <td><label>Guest</label></td>
+        </tr>
+        
+    </table>
+    <br>
+    <label>single sigh on to the following:</label>
+    <table>
+        <tr>
+            <td><input type="checkbox" ></td>
+            <td><label>Mail</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" ></td>
+                <td><label>Payroll</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" ></td>
+                    <td><label>Self-service</label></td>
+                    </tr>    
+        
+    </table>
+    <center>
+    <button>Login</button>
+    <input type="reset">
+    </center>
+    </form>
+
+    
+
+</body>
+</html>
