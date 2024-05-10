@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .maindiv{
+        width: 100%;
+        height: 500px;
+       position: relative;
+        
+        /* border-bottom: 2px solid black; */
+        display: inline-block;
+        padding-left: 300px;
+    }
+    .div1{
+        border-radius: 50px ;
+        border: 2px solid;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-color: aqua;
+        position: absolute;
+        bottom: 0px;
+        animation-name: bounce1;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    .div2{
+        border-radius: 50px ;
+        border: 2px solid;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-color: aqua;
+        position: absolute;
+        bottom: 0px;
+        animation-name: bounce1;
+        animation-duration: 1s;
+        
+        animation-delay: 0.1s;
+        animation-iteration-count: infinite;
+    }
+    .div3{
+        border-radius: 50px ;
+        border: 2px solid;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-color: aqua;
+        position: absolute;
+        bottom: 0px;
+        animation-name: bounce1;
+        animation-duration: 1s;
+        animation-direction: ;
+        
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    }
+    .div4{
+      border-radius: 50px ;
+        border: 2px solid;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-color: aqua;
+        position: absolute;
+        bottom: 0px;
+        animation-name: bounce1;
+        animation-duration: 1s;
+       
+        animation-delay: 0.1s;
+        animation-iteration-count: infinite;
+        
+    }
+   
+    
+    
+
+    @keyframes bounce1 {
+      0%{
+        bottom: 0px;
+      }
+      10%{
+        bottom: 40px;
+      }
+      20%{
+        bottom: 80px;
+      }
+      30%{
+        bottom: 120px;
+      }40%{
+        bottom: 160px;
+      }50%{
+        bottom: 200px;
+      }60%{
+        bottom: 240px;
+      }70%{
+        bottom: 280px;
+      }80%{
+        bottom: 320px;
+      }90%{
+        bottom: 360px;
+      }
+      100%{
+        
+      }
+      
+    }
+</style>
+<body>
+    <div class="maindiv">
+
+
+    <div class="div1" style="background-color: red;">
+
+    </div>
+    <div class="div2" style="margin-left: 120px; background-color:yellow;">
+
+    </div>
+    <div class="div3" style="margin-left: 240px; background-color: green;">
+
+    </div>
+    <div class="div4" style="margin-left: 360px; background-color: blue;">
+
+    </div>
+    
+
+
+
+
+    </div>
+    <br>
+
+
+
+
+</body>
+</html>
