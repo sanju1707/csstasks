@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maindiv{
+            width: 500px;
+            height: 200px;
+            border: 1px solid;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,1fr);
+        }
+        .maindiv div{
+            width: 1fr;
+            height: 1fr;
+            border: 1px solid;
+            text-align: center;
+            align-content: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+     <div style="grid-column: 1/3;">
+        veggies
+     </div>
+     <div>
+        tomato
+     </div>
+     <div>
+        potato
+     </div>
+     <div style="grid-row: 2/4;">
+        cost
+     </div>
+     <div>
+        mrp
+     </div>
+     <div>
+        20
+     </div>
+     <div>
+        50
+     </div>
+     <div>
+        rp
+     </div>
+     <div>
+        80
+     </div>
+     <div>
+        80
+     </div>
+</div>
+</body>
+</html>

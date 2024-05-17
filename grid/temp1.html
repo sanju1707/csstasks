@@ -9,22 +9,42 @@
     .maindiv{
         width: 600px;
         height: 500px;
-        border: 2px solid;
-        background-color: orange;
+        /* border: 2px solid;
+        background-color: orange; */
         margin-left: 400px;
         display: grid;
-        grid-template-columns: 200px 200px 200px;
-    }
-    .maindiv div{
-        width: 200px;
-        height: 50px;
-        border: 2px solid;
-        background-color: red;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(6,50px);
       
     }
+    .maindiv div{
+        width: 1fr;
+        height: 1fr;
+        border: 1px solid;
+        /* background-color: red; */
+        text-align: center;
+        
+        align-content: center;   
+        
+    }
     .head{
-        grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column: 1/4;
+    
+    }
+    .nav{
+        grid-column: 1/4;
+    }
+    .index{
+        grid-row:3/5;
+       
+       
+    }
+    .content{
+        grid-column: 2/4;
+        grid-row:3/5;
+       
+    }.footer{
+        grid-column: 1/4;
     }
     
 </style>
@@ -33,17 +53,17 @@
      <div class="head">
         header section
      </div>
-     <div>
+     <div class="nav">
         navigation bar
      </div>
-     <div>
+     <div class="index">
         index
 
      </div>
-     <div>
+     <div class="content">
         content section
      </div>
-     <div>
+     <div class="footer">
         footer section
      </div>
     </div>

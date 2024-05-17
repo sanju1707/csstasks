@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .maindiv{
+        width: 500px;
+        height: 500px;
+        /* border: 1px solid; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        
+
+     }
+     .maindiv div{
+        width: 1fr;
+        height: 1fr;
+      border: 1px solid;
+     }
+     .left{
+        grid-row:1/4 ;
+        background-color: green;
+     }
+     .header{
+        grid-column: 2/4;
+        background-color: green;
+     }
+     .right_1{
+        background-color: orange;
+     }
+     .right_2{
+        background-color: green;
+        grid-row: 2/4;
+        grid-column: 4/5;
+     }
+     .maindiv:hover{
+       gap: 10px;
+     }
+    </style>
+</head>
+<body>
+    <h1>hover to see gap</h1>
+    <div class="maindiv">
+      <div class="left">
+        left
+      </div>
+      <div class="header">
+        header
+      </div>
+      <div class="right_1">
+        right_1
+      </div>
+      <div style="background-color: orange;">
+        content_1
+      </div >
+      <div style="background-color: yellow;">
+        content_2
+      </div>
+      <div class="right_2">
+        right_2
+      </div>
+      <div style="background-color: yellow;">
+        content_3
+      </div>
+      <div style="background-color: orange;">
+        content_4
+      </div>
+
+    </div>
+</body>
+</html>

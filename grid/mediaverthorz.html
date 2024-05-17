@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .maindiv{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+        margin-left: 0px;
+        
+    }
+    div{
+        margin-left: 25px;
+    }
+    @media  screen and (max-width:400px){
+        .maindiv{
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <div class="maindiv">
+        <div>first</div>
+        <div>second</div>
+        <div>third</div>
+        <div>fouth</div>
+    </div>
+    <h1>decreae the responsive</h1>
+</body>
+</html>
